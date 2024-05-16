@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Respnsividade</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        main{
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            min-width: 280px;
+            max-width: 830px;
+            margin: auto;
+        }
+
+        img{
+            width: 100%;
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: justify;
+        }
+        div.video{
+            background-color: rgb(136, 136, 136);
+            padding: 20px;
+            margin: 0px -20px 30px -20px;
+            padding-bottom: 59%;
+            position: relative;
+        }
+
+        div.video > iframe{
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 90%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+    <h1>Testando Responsavidade</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In corrupti nisi architecto cum sunt porro, deleniti, cumque quae facere ipsa nostrum. Ipsam quidem at, dolorem possimus soluta impedit ipsum nisi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque itaque ipsa perspiciatis suscipit magni quod quisquam, obcaecati quasi rerum! Exercitationem tempore officiis libero eligendi esse, a at rem! Eum, possimus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque error dolore pariatur distinctio nam excepturi numquam laudantium suscipit culpa molestiae, aliquid modi quidem natus? Voluptas laborum autem maxime dolorum eveniet.</p>
+    <picture>
+        <source media="(max-width: 600px )" srcset="imagens/irina-blok-pq.jpg">
+        <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+    </picture>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium debitis eveniet voluptatem, saepe distinctio voluptatibus laborum pariatur iusto dignissimos harum aut iure perferendis vel quaerat nisi, ratione facere, ipsa illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum perspiciatis adipisci rerum recusandae cupiditate, fuga laboriosam magnam. Harum mollitia recusandae labore, non saepe iusto nesciunt expedita amet perferendis magnam provident.</p>
+
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tcLLTsP3wlo?si=QjR8aifPaal34k8t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus adipisci pariatur impedit non eligendi modi illum ullam commodi maiores dolorem fuga suscipit exercitationem sit est beatae quo esse, rem doloremque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae maxime suscipit dolorum facere natus soluta eaque sint velit, voluptatibus distinctio, laboriosam obcaecati neque nobis dolor sequi corporis? Accusamus, similique incidunt?
+    </main>
+</body>
+</html>

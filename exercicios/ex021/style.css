@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(127, 255, 212);
+    margin: 0px;
+}
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.418);
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+}
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    border-radius: 10px 0px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.418);
+}
+footer{
+    background-color: rgba(3, 7, 214, 0.829);
+    color: white;
+    text-align: center;
+    padding: 4px;
+}
+article{
+    background-color: rgba(127, 255, 212, 0.589);
+    padding: 3px;
+}
+article > aside{
+    background-color: rgb(118, 214, 182);
+}
+nav > a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    display: block;
+    background-color: rgba(99, 223, 182, 0.377);
+    width: 100px;
+    text-align: center;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.452);
+
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    background-color: rgb(104, 207, 173);
+}
+
+footer > p{
+    margin: 0px;
+}
+
+#bola{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 10px auto;
+    border-radius: 50%;
+}
